@@ -5,6 +5,10 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:5389",
       "sslPort": 44306
+    },
+    "iis": {
+      "applicationUrl": "https://todolist-dev.local",
+      "sslPort": 0
     }
   },
   "profiles": {
@@ -15,14 +19,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ToDoListManager": {
-      "commandName": "Project",
+    "IIS": {
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": "true",
-      "applicationUrl": "https://todolist-dev.local;http://todolist-dev.local"
+      "applicationUrl": "https://todolist-dev.local"
     }
   }
 }
